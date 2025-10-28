@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Marcos Matheus, Desenvolvedor Full Stack Júnior. Especialista em PHP, Laravel, Vue 3, Vuetify, Postman, Git, GitHub e Docker." />
+  <meta name="keywords" content="php, laravel, vue 3, vuetify, javascript, postman, git, github, docker, full stack, portfolio" />
+  <meta name="author" content="Marcos Matheus" />
+  <meta name="theme-color" content="#6366f1" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Marcos Matheus | Full Stack Júnior" />
+  <meta property="og:description" content="PHP + Laravel + Vue 3 + Vuetify. Código limpo. Projetos reais." />
+  <meta property="og:image" content="mm1.jpg" />
+  <meta property="og:url" content="https://marcosmatheus.dev" />
+  <meta property="og:type" content="website" />
+
+  <title>Marcos Matheus | Full Stack</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <nav class="navbar container" role="navigation" aria-label="Menu principal">
+      <a href="#home" class="logo" aria-label="Início">
+        <span class="logo-primary">Marcos</span><span class="logo-secondary">Matheus</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#experiencias" class="nav-link">Formação</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO (FOTO AO LADO) ===== -->
+  <section class="hero section" id="home" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1 id="hero-title" class="hero-title">
+          Olá, eu sou <span class="highlight">Marcos Matheus</span>
+        </h1>
+        <p class="hero-subtitle">Desenvolvedor Full Stack Júnior</p>
+        <p class="hero-desc">
+          Construo aplicações completas com <strong>PHP</strong>, <strong>Laravel</strong>, <strong>Vue 3</strong>, <strong>Vuetify</strong>, <strong>Postman</strong>, <strong>Git</strong>, <strong>GitHub</strong> e <strong>Docker</strong>.
+        </p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-primary">Fale Comigo</a>
+          <a href="#projetos" class="btn btn-outline">Ver Projetos</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="mm1.jpg" alt="Marcos Matheus" loading="lazy" width="400" height="400" />
+          <div class="image-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section alt-bg" id="sobre" aria-labelledby="sobre-title">
+    <div class="container">
+      <h2 id="sobre-title" class="section-title">Sobre Mim</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Sou um <strong>desenvolvedor full stack</strong> apaixonado por criar soluções digitais completas, do back-end ao front-end.
+          </p>
+          <p>
+            Domino <strong>PHP</strong>, <strong>Laravel</strong>, <strong>Vue 3</strong> com <strong>Vuetify</strong>, e utilizo <strong>Postman</strong>, <strong>Git</strong>, <strong>GitHub</strong> e <strong>Docker</strong> para entregar projetos profissionais e escaláveis.
+          </p>
+          <blockquote class="quote">
+            “O código é poesia escrita em lógica.” — Bill Gates
+          </blockquote>
+        </div>
+        <div class="about-info">
+          <ul class="info-list">
+            <li><i class="fas fa-user"></i> <strong>Idade:</strong> 22 anos</li>
+            <li><i class="fas fa-map-marker-alt"></i> <strong>Local:</strong> Brasil</li>
+            <li><i class="fas fa-briefcase"></i> <strong>Disponível:</strong> Freelance / CLT / Remoto</li>
+            <li><i class="fas fa-language"></i> <strong>Idiomas:</strong> Português, Inglês (B2)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HABILIDADES (SUAS REAIS) ===== -->
+  <section class="section" id="habilidades" aria-labelledby="skills-title">
+    <div class="container">
+      <h2 id="skills-title" class="section-title">Habilidades Técnicas</h2>
+      <p class="section-subtitle">Tecnologias que domino com profundidade</p>
+      
+      <div class="skills-grid">
+        <!-- PHP + LARAVEL -->
+        <div class="skill-card" data-animate>
+          <div class="skill-icon"><i class="fab fa-php"></i></div>
+          <h3>PHP & Laravel</h3>
+          <ul>
+            <li>PHP 8.3+ (Typed Properties, Enums)</li>
+            <li>Laravel 11 (Pest, Octane, Filament)</li>
+            <li>APIs RESTful, Eloquent, Migrations</li>
+            <li>Autenticação (Sanctum, JWT)</li>
+            <li>Validação, Middlewares, Events</li>
+            <li>Composer, PSR-12</li>
+          </ul>
+        </div>
+
+        <!-- VUE 3 + VUETIFY -->
+        <div class="skill-card" data-animate>
+          <div class="skill-icon"><i class="fab fa-vuejs"></i></div>
+          <h3>Vue 3 & Vuetify</h3>
+          <ul>
+            <li>Vue 3.5 (Composition API, &lt;script setup&gt;)</li>
+            <li>Vuetify 3 (Material Design 3)</li>
+            <li>Pinia, Vue Router 4</li>
+            <li>Vite, Componentes Reutilizáveis</li>
+            <li>Validações com VeeValidate</li>
+            <li>UI Responsiva & Acessível</li>
+          </ul>
+        </div>
+
+        <!-- FERRAMENTAS -->
+        <div class="skill-card" data-animate>
+          <div class="skill-icon"><i class="fas fa-tools"></i></div>
+          <h3>Ferramentas & DevOps</h3>
+          <ul>
+            <li>Git & GitHub (Branching, PRs)</li>
+            <li>Postman (Testes de API)</li>
+            <li>Docker & Docker Compose</li>
+            <li>JavaScript (ES6+, Async/Await)</li>
+            <li>CSS3 (Flex, Grid, Animations)</li>
+            <li>HTML5 Semântico</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORMAÇÃO (CORRIGIDA) ===== -->
+  <section class="section alt-bg" id="experiencias" aria-labelledby="exp-title">
+    <div class="container">
+      <h2 id="exp-title" class="section-title">Formação & Certificações</h2>
+      <p class="section-subtitle">Trajetória acadêmica e técnica</p>
+      
+      <div class="timeline">
+        <!-- Ensino Superior -->
+        <article class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Ensino Superior</h3>
+            <span class="timeline-date">2025 — Unifanor</span>
+            <p>Análise e Desenvolvimento de Sistemas</p>
+          </div>
+        </article>
+
+        <!-- Full Stack Avançada -->
+        <article class="timeline-item reverse" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Formação Full Stack Avançada</h3>
+            <span class="timeline-date">2025 — Google</span>
+            <p>Arquitetura de software, React, Node.js, microsserviços e DevOps.</p>
+          </div>
+        </article>
+
+        <!-- Vue.js + Vuetify -->
+        <article class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Vue.js Profissional + Vuetify</h3>
+            <span class="timeline-date">2024 — Alura</span>
+            <p>SPAs avançadas, Pinia, roteamento, testes unitários e UI com Vuetify 3.</p>
+          </div>
+        </article>
+
+        <!-- JavaScript Moderno -->
+        <article class="timeline-item reverse" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>JavaScript Moderno</h3>
+            <span class="timeline-date">2025 — Rocketseat</span>
+            <p>ES6+, Promises, Async/Await, módulos, APIs REST e DOM avançado.</p>
+          </div>
+        </article>
+
+        <!-- APIs REST Seguras -->
+        <article class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>APIs REST Seguras</h3>
+            <span class="timeline-date">2024 — Udemy</span>
+            <p>Validação, rate limiting, CORS, JWT, middlewares e segurança OWASP.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETOS (6 REAIS) ===== -->
+  <section class="section" id="projetos" aria-labelledby="projects-title">
+    <div class="container">
+      <h2 id="projects-title" class="section-title">Projetos em Destaque</h2>
+      <p class="section-subtitle">6 projetos reais com PHP, Laravel, Vue 3 e Vuetify</p>
+      <div class="projects-grid">
+        <article class="project-card" data-animate>
+          <div class="project-icon"><i class="fas fa-edit"></i></div>
+          <h3>CRUD Completo</h3>
+          <p>CRUD com PHP + Laravel + Vue 3 + Vuetify.</p>
+          <a href="https://github.com/Matheu-sCosta1/Crud" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+        </article>
+
+        <article class="project-card" data-animate>
+          <div class="project-icon"><i class="fas fa-user-plus"></i></div>
+          <h3>Matriculas CRUD</h3>
+          <p>Sistema de matrículas com Vuetify + Laravel.</p>
+          <a href="https://github.com/Matheu-sCosta1/matriculas-crud-vue-vuetify" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+        </article>
+
+        <article class="project-card" data-animate>
+          <div class="project-icon"><i class="fas fa-school"></i></div>
+          <h3>EduNova</h3>
+          <p>Plataforma educacional com Laravel + Vue.</p>
+          <a href="https://github.com/Matheu-sCosta1/EduNova" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+        </article>
+
+        <article class="project-card" data-animate>
+          <div class="project-icon"><i class="fas fa-sign-in-alt"></i></div>
+          <h3>Login Seguro</h3>
+          <p>Autenticação com Laravel + JWT + Vue 3.</p>
+          <a href="https://github.com/Matheu-sCosta1/vue-login-vuetify" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+        </article>
+
+        <article class="project-card" data-animate>
+          <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Analytics Dashboard</h3>
+          <p>Dashboard com Vue + Chart.js + API Laravel.</p>
+          <a href="https://github.com/Matheu-sCosta1/_analytics-dashboard" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+        </article>
+
+        <article class="project-card" data-animate>
+          <div class="project-icon"><i class="fas fa-cogs"></i></div>
+          <h3>API Matrícula</h3>
+          <p>API RESTful com Laravel + Postman + Docker.</p>
+          <a href="https://github.com/Matheu-sCosta1/api-matricula-alunos" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section alt-bg" id="contato" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 id="contact-title" class="section-title">Entre em Contato</h2>
+      <p class="section-subtitle">Disponível para novos desafios</p>
+
+      <form class="contact-form" action="https://formspree.io/f/YOUR_ID" method="POST">
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Seu nome" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+        </div>
+        <textarea name="message" placeholder="Sua mensagem" rows="6" required></textarea>
+        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+      </form>
+
+      <div class="contact-links">
+        <a href="mailto:mateus312004@gmail.com" class="contact-link">
+          <i class="fas fa-envelope"></i> mateus312004@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" class="contact-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/Matheu-sCosta1/1Matheusc1" target="_blank" rel="noopener" class="contact-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year">2025</span> Marcos Matheus. Feito com <i class="fas fa-heart text-accent"></i> e código real.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
