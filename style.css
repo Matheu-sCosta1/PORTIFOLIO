@@ -16,7 +16,7 @@
   --shadow-glow: 0 0 30px rgba(0, 212, 255, 0.3);
 }
 
-/* ===== RESET & BASE =====- */
+/* ===== RESET & BASE ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; font-size: 100%; }
 body {

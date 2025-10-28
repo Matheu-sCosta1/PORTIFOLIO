@@ -17,7 +17,7 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// ===== SMOOTH SCROLL =====
+// ===== SMOOTH SCROLL =====-
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', (e) => {
     const href = link.getAttribute('href');
